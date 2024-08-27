@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+body 
+    {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #1A3636;
+    }
+#seleccionar-mascota 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.titulo
+    {
+        font-family: "Honk", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+        font-size: xxx-large;
+        margin: 0px;
+        text-align: center;
+    }
+.titulo img{
+    margin-block: 22px;
+    height: 150px;
+}
+.subtitulo
+    {
+        /*color: rgb(211, 184, 211);*/
+        font-family: "Honk", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+        font-size: xxx-large;
+        /*font-size: 24px;*/
+        text-align: center;
+        margin-block: 10px;
+        margin-bottom: 33px;
+    }
+
+.tarjetas, .tarjetas-ataques
+    {
+        display: flex;
+        gap: 10px;
+    }
+.tarjeta-de-mokepon 
+    {
+        
+        width: 185px;
+        height: 158px;
+        background-color: #40534C;;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 28px;
+        display: flex; /* alusion a flexbox */
+        justify-content: center;
+        align-items: center
+    }
+.tarjeta-de-mokepon img{
+    width: 90px;
+}
+#boton-mascota{
+    
+    border-radius: 39px;
+    width: 154px;
+    height: 37px;
+    background-color: transparent;
+    border: 2px solid #677D6A;
+    margin-top: 30px;
+    color: rgb(211, 184, 211);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#ver-mapa{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+input{
+    display: none;
+} 
+
+input:checked + label{
+    background-color: #677D6A;
+    border-radius: 100px;
+}    
+#seleccionar-ataque{
+    
+    flex-direction: column;
+    align-items: center;
+}
+.boton-de-ataque{
+    display: flex;
+    background-color: #677D6A;
+    border-radius: 20px;
+    color: aliceblue;
+    height: 62px;
+    width: 107px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+p{
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style:large;
+  font-size: medium;
+  color: aliceblue;
+
+}
+#Mensajes{
+    display: flex;
+    justify-content: center;
+    background-color: #677D6A;
+    width: 212px;
+    height: 83px;
+    border-radius: 29px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boton-reiniciar{
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 20px;
+    background-color: #677D6A;
+    color: black;
+    font-family: 'Poetsen One';
+    height : 29px;
+    width : 107px;
+}
+
+#vidas-jugador, #vidas-enemigo {
+    font-size: x-large;
+}
+
+.mascota-jugador, .mascota-enemigo{
+    font-size: xx-large;
+}
+
+.ataques{
+    display: grid;
+    grid-template-columns: 156px 156px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+    background-color: #677D6A;
+   
+}
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#ver-mapa button{
+    
+    border-radius: 39px;
+    width: 84px;
+    height: 47px;
+    background-color: transparent;
+    border: 2px solid #677D6A;
+    margin: 10px;
+    color: rgb(211, 184, 211);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-block-color: #240750;
+}
+@media (max-width: 560px) {
+    .tarjetas, .tarjetas-ataques {
+      flex-direction: column;
+    }
+  }
+@media (max-width: 300px) {
+    #ver-mapa div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
