@@ -7,5 +7,6 @@ En este grandioso juego** hogwarts_LegacyGame** aprendemos a crear nuesto servid
 - aprendemos a crear nuestras llaves publicas y privadas 
 - lo basico del Frontend y el Backend 
 - Inspirado en Harry potter 
+- Mi Serie favorita 🤓
 - creado por **** Diego Morales**** basado en mi curso de Programacion basica de Platzi
 ****
