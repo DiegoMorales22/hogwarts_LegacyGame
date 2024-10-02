@@ -8,5 +8,5 @@ En este grandioso juego** hogwarts_LegacyGame** aprendemos a crear nuesto servid
 - lo basico del Frontend y el Backend 
 - Inspirado en Harry potter 
 - Mi Serie favorita 👨🏾‍💻
-- creado por **** Diego Morales**** basado en mi curso de Programacion basica de Platzi
+- creado por ** Diego Morales** basado en mi curso de Programacion basica de Platzi
 ****
